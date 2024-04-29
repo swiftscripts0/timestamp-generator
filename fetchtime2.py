@@ -3,7 +3,7 @@ import pytz
 
 # gets user input for timezone
 while True:
-  user_timezone = input("Enter your timezone (e.g., America/Los_Angeles, Europe/Paris): ")
+  user_timezone = input("Enter your timezone (e.g., Europe/Paris, Australia/Sydney): ")
   # Check if the timezone is valid using pytz.all_timezones
   if user_timezone in pytz.all_timezones:
     break
